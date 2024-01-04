@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - SnowPass
+  - Snow_Terrain
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Snow Terrain
+    uniqueID: 1665924529
+    locked: 0
+  - name: Snow Pass
+    uniqueID: 1021052797
     locked: 0
