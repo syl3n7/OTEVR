@@ -11,5 +11,9 @@ EditorBuildSettings:
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 08c63631dfcba6044be4f5748d5ba158,
       type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d4e44e8f474f74d34a910f63f26e4a2f,
+      type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 40e39512a8ca4334aaae14ec9aee31ac,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: b8ebdeba76d714338acb6390b41572a7,
       type: 2}

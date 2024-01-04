@@ -16,23 +16,23 @@ public class AppPrefs : MonoBehaviour
     * @_timer - timer to be able to calculate how many frames per each second there are
     * @_hudRefreshRate - number of seconds that the FPS counter is updated per second 
     */
-    public TMP_Text _info;
-    private string _version;
-    private string _productName;
+    // public TMP_Text _info;
+    // private string _version;
+    // private string _productName;
     public TMP_Text _fpsText;
     public bool _showFPS;
-    public GameObject player;
-    public TMP_Text player_health;
-    public TMP_Text player_score;
+    // public GameObject player;
+    // public TMP_Text player_health;
+    // public TMP_Text player_score;
     private float _timer;
     private float _hudRefreshRate = 1f;
 
     void OnValidate() //validar e colocar logo a informação nas variáveis
     {
-        _version = Application.version.ToString();
-        _productName = Application.productName.ToString();
-        player_health.text = "Health: 100";
-        player_score.text = "Score: 0";
+        // _version = Application.version.ToString();
+        // _productName = Application.productName.ToString();
+        // player_health.text = "Health: 100";
+        // player_score.text = "Score: 0";
     }
 
     void Start()
@@ -46,10 +46,10 @@ public class AppPrefs : MonoBehaviour
                 Application.targetFrameRate = 90; // ? setting the frameRate to 60 
             }
 
-            _info.text = _productName + "\nVersion: " + _version;
+            // _info.text = _productName + "\nVersion: " + _version;
         }
-        player_health.text = "Health: " + player.GetComponent<PlayerController>().health.ToString();
-        player_score.text = "Score: " + player.GetComponent<PlayerController>().highScore.ToString();
+        // player_health.text = "Health: " + player.GetComponent<PlayerController>().health.ToString();
+        // player_score.text = "Score: " + player.GetComponent<PlayerController>().highScore.ToString();
 
     }
 
@@ -57,8 +57,8 @@ public class AppPrefs : MonoBehaviour
     {
         if (UnityEngine.SceneManagement.SceneManager.GetActiveScene().name == "In-Game")
         {
-            player_health.text = "Health: " + player.GetComponent<PlayerController>().health.ToString();
-            player_score.text = "Score: " + player.GetComponent<PlayerController>().highScore.ToString();
+            // player_health.text = "Health: " + player.GetComponent<PlayerController>().health.ToString();
+            // player_score.text = "Score: " + player.GetComponent<PlayerController>().highScore.ToString();
             if (_showFPS) //colocar isto no menu de opções
             {
                 if (Time.unscaledTime > _timer) //timer to handle the FPS counter
@@ -68,7 +68,7 @@ public class AppPrefs : MonoBehaviour
                     _timer = Time.unscaledTime + _hudRefreshRate;
                 }
             }
-            else _fpsText.text = "  ";
+            // else _fpsText.text = "  ";
         }
     }
 }
