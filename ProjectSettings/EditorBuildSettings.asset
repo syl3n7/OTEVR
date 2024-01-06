@@ -6,14 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/OutdoorsScene.unity
-    guid: 8124e5870f4fd4c779e7a5f994e84ad1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 08c63631dfcba6044be4f5748d5ba158,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5e97f309f0578164fab1ec9c087e151e,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5966b8b8433320845b1a053ebf891ce9,
-      type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 40e39512a8ca4334aaae14ec9aee31ac,
-      type: 2}
-    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: b8ebdeba76d714338acb6390b41572a7,
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 403da482bd09c85459e5362f02f255f3,
       type: 2}
