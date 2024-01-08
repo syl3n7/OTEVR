@@ -5176,12 +5176,42 @@ PrefabInstance:
     - target: {fileID: 1815649844086402081, guid: a7a2bee62f78f244e929ebf5be2e46da,
         type: 3}
       propertyPath: m_Height
-      value: 0.3
+      value: 1.73
       objectReference: {fileID: 0}
     - target: {fileID: 1919302444917752609, guid: a7a2bee62f78f244e929ebf5be2e46da,
         type: 3}
       propertyPath: m_Name
       value: Player - XR Origin (XR Rig)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449514106470986042, guid: a7a2bee62f78f244e929ebf5be2e46da,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.959
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449514106470986042, guid: a7a2bee62f78f244e929ebf5be2e46da,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449514106470986042, guid: a7a2bee62f78f244e929ebf5be2e46da,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449514106470986042, guid: a7a2bee62f78f244e929ebf5be2e46da,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449514106470986042, guid: a7a2bee62f78f244e929ebf5be2e46da,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2449514106470986042, guid: a7a2bee62f78f244e929ebf5be2e46da,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3609575905776030929, guid: a7a2bee62f78f244e929ebf5be2e46da,
         type: 3}
@@ -5251,7 +5281,12 @@ PrefabInstance:
     - target: {fileID: 8950206956518888674, guid: a7a2bee62f78f244e929ebf5be2e46da,
         type: 3}
       propertyPath: m_CameraYOffset
-      value: 1.3
+      value: 1.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 8950206956518888674, guid: a7a2bee62f78f244e929ebf5be2e46da,
+        type: 3}
+      propertyPath: m_RequestedTrackingOriginMode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
