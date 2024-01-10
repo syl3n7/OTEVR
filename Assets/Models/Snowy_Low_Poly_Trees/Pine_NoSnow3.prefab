@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4000012960591166}
   - component: {fileID: 33000012041727206}
   - component: {fileID: 23000014169819574}
-  - component: {fileID: 64000012281273944}
+  - component: {fileID: 621694343420964166}
   m_Layer: 0
   m_Name: Pine_NoSnow3
   m_TagString: Untagged
@@ -85,8 +85,8 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &64000012281273944
-MeshCollider:
+--- !u!136 &621694343420964166
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -103,7 +103,8 @@ MeshCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4300004, guid: e6ec39770b6dbe04f9cbd7ea19e0c7ef, type: 3}
+  serializedVersion: 2
+  m_Radius: 1.4351602
+  m_Height: 6.758559
+  m_Direction: 1
+  m_Center: {x: 0.0021072626, y: 3.419867, z: -0.028266966}
