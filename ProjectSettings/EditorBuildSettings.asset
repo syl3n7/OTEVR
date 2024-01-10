@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Terreno2.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: cb9b5632e893a484fa317344cdd282de
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 5e97f309f0578164fab1ec9c087e151e,
       type: 2}
