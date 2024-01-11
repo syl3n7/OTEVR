@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class ActivateTeleportationRay : MonoBehaviour
 {
@@ -14,10 +15,7 @@ public class ActivateTeleportationRay : MonoBehaviour
 
     void Update()
     {
-        bool isLeftRayHovering = leftRay.TryGetHitInfo(out Vector3 leftPos, out Vector3 leftNormal, 
-            out int leftNumber, out bool leftValid);
-        leftTeleportation.SetActive!isLeftRayHovering && leftCancel.action.ReadValue<float>() == 0 
-            && leftActivate.action.ReadValue<float> › 0.1f);
+        bool isLeftRayHovering = leftRay.TryGetHitInfo(out Vector3 leftPos, out Vector3 leftNormal, out int leftNumber, out bool leftValid);
+        leftTeleportation.SetActive(!isLeftRayHovering && leftCancel.action.ReadValue<float>() == 0 && leftActivate.action.ReadValue<float>() > 0.1f);
     }
-
 }
