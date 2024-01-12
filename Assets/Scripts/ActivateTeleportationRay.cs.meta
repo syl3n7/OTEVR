@@ -3,7 +3,10 @@ guid: 1ca202997e1986745bdae67fd9c3bcec
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - teleportSound: {fileID: 8300000, guid: 1b33f12f94b444ba1abed4e2892288d7, type: 3}
+  - leftTeleportation: {instanceID: 0}
+  - leftRay: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

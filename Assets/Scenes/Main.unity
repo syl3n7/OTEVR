@@ -6989,10 +6989,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 428735250}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: PlayGame
-        m_Mode: 1
+      - m_Target: {fileID: 1262131701}
+        m_TargetAssemblyTypeName: SceneTransitionManager, Assembly-CSharp
+        m_MethodName: GoToScene
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -8613,7 +8613,7 @@ PrefabInstance:
     - target: {fileID: 5849765079216124530, guid: fd28f23af44f73f4a95e33435872ad15,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.0026512437
+      value: -0.006299109
       objectReference: {fileID: 0}
     - target: {fileID: 5849765079944474460, guid: fd28f23af44f73f4a95e33435872ad15,
         type: 3}
@@ -8827,6 +8827,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd28f23af44f73f4a95e33435872ad15, type: 3}
+--- !u!114 &1262131701 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4515456808155374396, guid: 2413fc1f914e6274293668225460e99a,
+    type: 3}
+  m_PrefabInstance: {fileID: 3341474310486091978}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1a557651254cb5459c76d260aa1ecd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1273186401
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9725,6 +9737,27 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!1 &1518981026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4049360759018183418, guid: a7a2bee62f78f244e929ebf5be2e46da,
+    type: 3}
+  m_PrefabInstance: {fileID: 7265746291805896502}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1518981030
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1518981026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d71b132865575554b812dec7f4dde653, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeOnStart: 1
+  fadeDuration: 2
+  fadeColor: {r: 1, g: 1, b: 1, a: 0}
 --- !u!1 &1534144767
 GameObject:
   m_ObjectHideFlags: 0
@@ -14461,6 +14494,79 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!1001 &3341474310486091978
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4515456808155374396, guid: 2413fc1f914e6274293668225460e99a,
+        type: 3}
+      propertyPath: fadeScreen
+      value: 
+      objectReference: {fileID: 1518981030}
+    - target: {fileID: 5593868439180570754, guid: 2413fc1f914e6274293668225460e99a,
+        type: 3}
+      propertyPath: m_Name
+      value: TransitionManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008301570022441599, guid: 2413fc1f914e6274293668225460e99a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 252.29544
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008301570022441599, guid: 2413fc1f914e6274293668225460e99a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.0524426
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008301570022441599, guid: 2413fc1f914e6274293668225460e99a,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 250.45749
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008301570022441599, guid: 2413fc1f914e6274293668225460e99a,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008301570022441599, guid: 2413fc1f914e6274293668225460e99a,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008301570022441599, guid: 2413fc1f914e6274293668225460e99a,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008301570022441599, guid: 2413fc1f914e6274293668225460e99a,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008301570022441599, guid: 2413fc1f914e6274293668225460e99a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008301570022441599, guid: 2413fc1f914e6274293668225460e99a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7008301570022441599, guid: 2413fc1f914e6274293668225460e99a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2413fc1f914e6274293668225460e99a, type: 3}
 --- !u!1001 &4815681285796115084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14830,6 +14936,11 @@ PrefabInstance:
       propertyPath: m_InteractionManager
       value: 
       objectReference: {fileID: 296532133}
+    - target: {fileID: 8093790488543007253, guid: a7a2bee62f78f244e929ebf5be2e46da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 587a1bf88efb0ef45b6671cb97456408, type: 2}
     - target: {fileID: 8592936832505180375, guid: a7a2bee62f78f244e929ebf5be2e46da,
         type: 3}
       propertyPath: leftRay
@@ -14849,7 +14960,11 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 1873309592382991811, guid: a7a2bee62f78f244e929ebf5be2e46da, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4049360759018183418, guid: a7a2bee62f78f244e929ebf5be2e46da,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1518981030}
   m_SourcePrefab: {fileID: 100100000, guid: a7a2bee62f78f244e929ebf5be2e46da, type: 3}
 --- !u!20 &7265746291805896503 stripped
 Camera:
@@ -14889,3 +15004,4 @@ SceneRoots:
   - {fileID: 391391028}
   - {fileID: 1614028457}
   - {fileID: 1578462351}
+  - {fileID: 3341474310486091978}
