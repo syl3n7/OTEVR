@@ -7158,7 +7158,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 991769940}
   m_LocalRotation: {x: 0.055804092, y: 0, z: 0, w: 0.99844176}
-  m_LocalPosition: {x: 0, y: 0, z: 8.9}
+  m_LocalPosition: {x: 0, y: 0, z: -6}
   m_LocalScale: {x: 0.81439, y: 0.81439, z: 0.81439}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7166,8 +7166,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 6.398, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 382, y: 67.4}
-  m_SizeDelta: {x: 1022, y: 720.5}
+  m_AnchoredPosition: {x: 359, y: -48}
+  m_SizeDelta: {x: 775.2, y: 507.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &991769942
 MonoBehaviour:
@@ -7189,11 +7189,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "No cora\xE7\xE3o da enorme montanha h\xE1 uma \r\npequena vila que foi
-    abandonada a muitos e \r\nmuitos anos pelos seus habitantes devido ao \r\nenorme
-    drag\xE3o de gelo que invadiu e destruiu as \r\npequenas habita\xE7\xF5es. O
-    jogador embarca na aventura \r \n\xFAnica e congelante. A sua miss\xE3o \xE9
-    lan\xE7ar bolas de neve \r\ncontra os alvos no meio do ambiente gelado. "
+  m_text: "O jogador embarca na aventura \xFAnica e congelante num treino de pontaria
+    para num futuro colocar os seus dotes \xE1 prova e quem sabe acabar com o inverno
+    que o tem\xEDvel drag\xE3o trouxe consigo."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -7220,14 +7218,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.27
-  m_fontSizeBase: 38.27
+  m_fontSize: 56.4
+  m_fontSizeBase: 43.54
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -8613,7 +8611,7 @@ PrefabInstance:
     - target: {fileID: 5849765079216124530, guid: fd28f23af44f73f4a95e33435872ad15,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.006299109
+      value: -0.0030093116
       objectReference: {fileID: 0}
     - target: {fileID: 5849765079944474460, guid: fd28f23af44f73f4a95e33435872ad15,
         type: 3}
@@ -14880,6 +14878,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_PlayAudioClipOnSelectExited
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4049360759018183418, guid: a7a2bee62f78f244e929ebf5be2e46da,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5848977785229635922, guid: a7a2bee62f78f244e929ebf5be2e46da,
         type: 3}
